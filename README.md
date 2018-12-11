@@ -3,18 +3,18 @@ Project Description
 
 Some File List
 --------------
-'''
-gold/       Contains the gold standard segmentation of the test data
-            along with the training data word lists.
+```
+	 - gold/       Contains the gold standard segmentation of the test dataalong with the training data word lists.
 
-scripts/    Contains the scoring script and simple segmenter.
+	 - scripts/    Contains the scoring script and simple segmenter.
 
-testing/    Contains the unsegmented test data.
+	 - testing/    Contains the unsegmented test data.
 
-training/   Contains the segmented training data.
+	 - training/   Contains the segmented training data.
 
-doc/        Contains the instructions used in the bakeoff.
-'''
+	 - doc/        Contains the instructions used in the bakeoff.
+```
+
 * Encoding Issues
 
 Files with the extension ".utf8" are encoded in UTF-8 Unicode.
