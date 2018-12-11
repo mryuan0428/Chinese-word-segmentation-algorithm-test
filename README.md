@@ -1,6 +1,7 @@
 Project Description
 ===================
 
+
 Some File List
 --------------
 ```
@@ -15,8 +16,9 @@ Some File List
 · doc/        Contains the instructions used in the bakeoff.
 ```
 
-* Encoding Issues
-
+Encoding Issues
+---------------
+```
 Files with the extension ".utf8" are encoded in UTF-8 Unicode.
 
 Files with the extension ".txt" are encoded as follows:
@@ -28,21 +30,22 @@ pku_   EUC-CN (CP936)
 
 EUC-CN is often called "GB" or "GB2312" encoding, though technically
 GB2312 is a character set, not a character encoding.
+```
 
-* Scoring
-
+Scoring
+-------
+```
 The script 'score' is used to generate compare two segmentations. The
 script takes three arguments:
 
 1. The training set word list
 2. The gold standard segmentation
 3. The segmented test file
+```
 
-
-
-
-* Invoking the scoring script：
-
+Invoking the scoring script：
+----------------------------
+```
 @@@Jieba
 perl scripts/score gold/CTB7_training_words.utf8 gold/CTB7_testing_gold.utf8 result/jieba/CTB7_result.utf8 > score/jieba/jieba_CTB7.utf8
 
@@ -78,3 +81,4 @@ perl scripts/score gold/msr_training_words.utf8 gold/msr_test_gold.utf8 result/d
 
 perl scripts/score gold/pku_training_words.utf8 gold/pku_test_gold.utf8 result/dlseg/pku_result.utf8 > score/dlseg/dlseg_pku.utf8
 @@@
+```
