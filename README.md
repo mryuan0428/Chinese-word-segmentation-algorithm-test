@@ -1,7 +1,7 @@
 Project Description
 ===================
 
- -*- Some File List
+	 - Some File List
  ------------------
 
 gold/       Contains the gold standard segmentation of the test data
