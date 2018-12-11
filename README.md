@@ -45,8 +45,8 @@ script takes three arguments:
 
 Invoking the scoring script：
 ----------------------------
+ - Jieba
 ```
-@@@Jieba
 perl scripts/score gold/CTB7_training_words.utf8 gold/CTB7_testing_gold.utf8 result/jieba/CTB7_result.utf8 > score/jieba/jieba_CTB7.utf8
 
 perl scripts/score gold/as_training_words.utf8 gold/as_testing_gold.utf8 result/jieba/as_result.utf8 > score/jieba/jieba_as.utf8
@@ -56,9 +56,10 @@ perl scripts/score gold/cityu_training_words.utf8 gold/cityu_test_gold.utf8 resu
 perl scripts/score gold/msr_training_words.utf8 gold/msr_test_gold.utf8 result/jieba/msr_result.utf8 > score/jieba/jieba_msr.utf8
 
 perl scripts/score gold/pku_training_words.utf8 gold/pku_test_gold.utf8 result/jieba/pku_result.utf8 > score/jieba/jieba_pku.utf8
-@@@
+```
 
-@@@HLseg
+ - HLseg
+```
 perl scripts/score gold/CTB7_training_words.utf8 gold/CTB7_testing_gold.utf8 result/hlseg/CTB7_result.utf8 > score/hlseg/hlseg_CTB7.utf8
 
 perl scripts/score gold/as_training_words_jt.utf8 gold/as_testing_gold_jt.utf8 result/hlseg/as_result.utf8 > score/hlseg/hlseg_as.utf8
@@ -68,9 +69,10 @@ perl scripts/score gold/cityu_training_words_jt.utf8 gold/cityu_test_gold_jt.utf
 perl scripts/score gold/msr_training_words.utf8 gold/msr_test_gold.utf8 result/hlseg/msr_result.utf8 > score/hlseg/hlseg_msr.utf8
 
 perl scripts/score gold/pku_training_words.utf8 gold/pku_test_gold.utf8 result/hlseg/pku_result.utf8 > score/hlseg/hlseg_pku.utf8
-@@@
+```
 
-@@@DLseg
+ - DLseg
+```
 perl scripts/score gold/CTB7_training_words.utf8 gold/CTB7_testing_gold.utf8 result/dlseg/CTB7_result.utf8 > score/dlseg/dlseg_CTB7.utf8
 
 perl scripts/score gold/as_training_words_jt.utf8 gold/as_testing_gold_jt.utf8 result/dlseg/as_result.utf8 > score/dlseg/dlseg_as.utf8
@@ -80,5 +82,4 @@ perl scripts/score gold/cityu_training_words_jt.utf8 gold/cityu_test_gold_jt.utf
 perl scripts/score gold/msr_training_words.utf8 gold/msr_test_gold.utf8 result/dlseg/msr_result.utf8 > score/dlseg/dlseg_msr.utf8
 
 perl scripts/score gold/pku_training_words.utf8 gold/pku_test_gold.utf8 result/dlseg/pku_result.utf8 > score/dlseg/dlseg_pku.utf8
-@@@
 ```
