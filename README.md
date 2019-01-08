@@ -2,7 +2,7 @@ Project Description
 ===================
 
 
-Some File List
+Some Folders List
 --------------
 ```
 · gold/       Contains the gold standard segmentation of the test dataalong with the training data word lists.
@@ -22,7 +22,6 @@ Encoding Issues
 Files with the extension ".utf8" are encoded in UTF-8 Unicode.
 
 Files with the extension ".txt" are encoded as follows:
-
 as_    Big Five (CP950)
 hk_    Big Five/HKSCS
 msr_   EUC-CN (CP936)
